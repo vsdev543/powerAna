@@ -1,0 +1,23 @@
+param,subparam,yaxis
+Voltage,U1,V
+Voltage,U2,V
+Voltage,U3,V
+Voltage,VoltageAvg,V
+Current,I1,Amp
+Current,I2,Amp
+Current,I3,Amp
+Current,CurrentAvg,Amp
+Frequency,FreqAvg,Hz
+THDv,UTHDAvg,THDv
+THDi,ITHDAvg,THDi
+PF Ave,PFAvg,PF
+DPF Ave,DPFAvg,DPF
+Power,PTotal,kW
+Power,FQTotal,kVAr
+Power,STotal,kVA
+Energy,EPsumImp,kWh
+Energy,EQsumImp,kVArh
+Energy,ESsumImp,kVAh
+Demand,PDemand,kW
+Demand,QDemand,kVAr
+Demand,SDemand,kVA

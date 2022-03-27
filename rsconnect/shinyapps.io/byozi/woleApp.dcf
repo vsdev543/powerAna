@@ -1,0 +1,13 @@
+name: woleApp
+title: woleApp
+username:
+account: byozi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4395737
+bundleId: 4829642
+url: https://byozi.shinyapps.io/woleApp/
+when: 1626547230.0589
+lastSyncTime: 1626547230.05891
+asMultiple: FALSE
+asStatic: FALSE

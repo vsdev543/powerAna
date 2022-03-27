@@ -1,0 +1,36 @@
+library(shiny)
+library(bs4Dash)
+library(echarts4r)
+library(thematic)
+library(waiter)
+library(shinyWidgets)
+library(readxl)
+library(lubridate)
+library(dplyr)
+library(shinyscreenshot)
+library(keys)
+library(plotly)
+
+# Below title will apear on left side bar top
+title="Power Monitoring"
+# if you need to go to a site when you click title, you can add it below titlink
+titlink="/#"
+# change background of sidebar title. Valid options are: primary, secondary, info, success, warning, danger, gray-dark, gray, white, indigo, lightblue, navy, purple, fuchsia, pink, maroon, orange, lime, teal, olive
+titcolor= "primary"
+
+# Change below to change the app name in browser tab
+apptit="Power App 1.0"
+
+# Change below value to change plot height
+plotHeight = 650
+
+
+
+source("./scripts/bs4dash.R",local = T)
+options(shiny.maxRequestSize = 50*1024^2)
+
+source("./scripts/shiny.R",local = T)
+
+
+shinyApp(ui = ui, server = server)
+
